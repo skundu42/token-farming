@@ -24,11 +24,14 @@
     "truffle": "5.1.39",
     "web3": "1.2.11"
   },
+  "homepage": "http://skundu42.github.io/token-farming",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
